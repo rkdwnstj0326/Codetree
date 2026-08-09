@@ -3,32 +3,9 @@ A, B = input().split()
 A = int(A)
 B = int(B)
 
-if A >= B:
-    print(1)
-else:
-    print(0)
-
-if A > B:
-    print(1)
-else:
-    print(0)
-
-if B >= A:
-    print(1)
-else:
-    print(0)
-
-if B > A:
-    print(1)
-else:
-    print(0)
-
-if A == B:
-    print(1)
-else:
-    print(0)
-
-if A != B:
-    print(1)
-else:
-    print(0)
+print(int(A >= B))
+print(int(A > B))
+print(int(B >= A))
+print(int(B > A))
+print(int(A == B))
+print(int(A != B))
